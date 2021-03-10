@@ -1,0 +1,23 @@
+{
+  "name": "calculador-imposto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "execute": "node dist/index.js",
+    "build": "tsc",
+    "watch:build": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "@types/pdf-parse": "^1.1.0"
+  }
+}
